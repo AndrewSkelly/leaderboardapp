@@ -1,0 +1,55 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Home
+    link(rel='stylesheet' href='stylesheets/styles.css')
+  body.bg-zinc-100
+      //- Navbar
+      nav.nav
+          //- Header
+          img(src="images/award.png" width="64" height="64").p-4
+          a(href="http://localhost:3000").navitem Home
+          a(href="http://localhost:3000/api/leaderboards/ireland").navitem Irish Contestants
+          a(href="http://localhost:3000/api/leaderboards/ireland/full").navitem Irish Contestants Results
+          a(href="http://localhost:3000/api/leaderboards/all").navitem All Contestants
+          a(href="http://localhost:3000/api/leaderboards/all/full").navitem All Contestants Results
+          a(href="http://localhost:3000/api/leaderboards/highscore").navitem Highest Score
+
+      div#container.p-16
+        div.grid.grid-cols-3.gap-16.text-center
+          div.bg-white.roundb.drop-shadow-xl.grid.grid-cols-1.gap-4
+            img(src="images/ireland.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh.inline Ireland
+            img(src="images/gold-medal.png", alt="Medal" width="32" height="32").mx-auto
+            button.btn.inline Results
+          div.bg-white.roundb.drop-shadow-xl.grid.grid-cols-1.gap-4
+            img(src="images/germany.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Germany
+            button.btn Results
+          div.bg-white.roundb.drop-shadow-xl.grid.grid-cols-1.gap-4
+            img(src="images/spain.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Spain
+            img(src="images/bronze-medal.png", alt="Medal" width="32" height="32").mx-auto
+            button.btn Results
+          div.bg-white.roundb.drop-shadow-xl.grid.grid-cols-1.gap-4
+            img(src="images/turkey.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Turkey
+            img(src="images/silver-medal.png", alt="Medal" width="32" height="32").mx-auto
+            button.btn Results
+          div.bg-white.roundb.drop-shadow-xl.grid.grid-cols-1.gap-4
+            img(src="images/greece.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Greece
+            button.btn Results
+          div.bg-white.roundb.drop-shadow-xl.grid.grid-cols-1.gap-4
+            img(src="images/england.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh England
+            button.btn Results
+
+      div#container.p-16
+        div.grid.grid-cols-3.gap-16.text-center
+          p #{art}
+          p 525
+          p 356

@@ -1,0 +1,23 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800&family=Sen&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+.roundb {
+    @apply rounded-bld
+}
+.btn {
+    @apply p-4 pt-2 pb-2 bg-violet-500 hover:bg-violet-600 rounded-br-bld rounded-bl-bld drop-shadow-xl font-bold text-white font-Kumbh text-base hover:border-violet-400 align-bottom border-t-4 border-violet-300
+}
+.nav {
+    @apply bg-zinc-900 h-16 flex justify-center text-center border-b-4 border-violet-600
+}
+.navitem {
+    @apply text-white text-lg p-4 hover:text-zinc-300 font-Kumbh transition ease-in-out delay-150 hover:scale-110
+}
+
+@import "tailwindcss/utilities";
