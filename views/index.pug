@@ -7,75 +7,77 @@ html(lang='en')
     title Home
     link(rel='stylesheet' href='stylesheets/styles.css')
   body.bg-zinc-100
-      //- Navbar
-      nav.nav
-          //- Header
-          img(src="images/award.png" width="64" height="64").p-4
-          a(href="http://localhost:3000").navitem Home
-          a(href="http://localhost:3000/api/leaderboards/ireland").navitem Irish Contestants
-          a(href="http://localhost:3000/api/leaderboards/ireland/full").navitem Irish Contestants Results
-          a(href="http://localhost:3000/api/leaderboards/all").navitem All Contestants
-          a(href="http://localhost:3000/api/leaderboards/all/full").navitem All Contestants Results
-          a(href="http://localhost:3000/api/leaderboards/highscore").navitem Highest Score
+    //- Navbar
+    nav.nav
+        //- Header
+        img(src="images/award.png" width="64" height="64").p-4
+        a(href="http://localhost:3000").navitem Home
+        a(href="http://localhost:3000/api/leaderboards/ireland").navitem Irish Contestants
+        a(href="http://localhost:3000/api/leaderboards/ireland/full").navitem Irish Contestants Results
+        a(href="http://localhost:3000/api/leaderboards/all").navitem All Contestants
+        a(href="http://localhost:3000/api/leaderboards/all/full").navitem All Contestants Results
+        a(href="http://localhost:3000/api/leaderboards/highscore").navitem Highest Score
 
-      div#container.p-16
-          img(src="images/pin.png", alt="Country" width="128" height="128").mx-auto
-          p.roundbox Results From 12 Countries Available
-            div.cardgrid
-              div.card
-                img(src="images/ireland.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh.inline Ireland
-                img(src="images/gold-medal.png", alt="Medal" width="32" height="32").mx-auto
-                button.dbtn.inline Results
-              div.card
-                img(src="images/germany.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Germany
-                button.dbtn Results
-              div.card
-                img(src="images/spain.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Spain
-                img(src="images/bronze-medal.png", alt="Medal" width="32" height="32").mx-auto
-                button.dbtn Results
-              div.card
-                img(src="images/turkey.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Turkey
-                img(src="images/silver-medal.png", alt="Medal" width="32" height="32").mx-auto
-                button.dbtn Results
-              div.card
-                img(src="images/greece.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Greece
-                button.dbtn Results
-              div.card
-                img(src="images/england.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh England
-                button.dbtn Results
-              div.card
-                img(src="images/norway.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Norway
-                button.dbtn Results
-              div.card
-                img(src="images/sweden.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Sweden
-                button.dbtn Results
-              div.card
-                img(src="images/finland.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Finland
-                button.dbtn Results
-              div.card
-                img(src="images/switzerland.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Switzerland
-                button.dbtn Results
-              div.card
-                img(src="images/france.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh France
-                button.dbtn Results
-              div.card
-                img(src="images/denmark.png", alt="Country" width="64" height="64").mx-auto
-                p.font-Kumbh Denmark
-                button.dbtn Results
+    img(src="images/pin.png", alt="Country" width="128" height="128").mx-auto.drop-shadow-xl.animate-pulse.pt-8.pb-4
+    div#container.p-16
+        div.roundbox
+          p Results From 12 Countries Available
+          img(src="images/analytics.png", alt="Medal" width="32" height="32").mx-auto
+        div.cardgrid
+          div.card
+            img(src="images/ireland.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh.inline Ireland
+            img(src="images/gold-medal.png", alt="Medal" width="32" height="32").mx-auto
+            button.dbtn.inline Results
+          div.card
+            img(src="images/germany.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Germany
+            button.dbtn Results
+          div.card
+            img(src="images/spain.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Spain
+            img(src="images/bronze-medal.png", alt="Medal" width="32" height="32").mx-auto
+            button.dbtn Results
+          div.card
+            img(src="images/turkey.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Turkey
+            img(src="images/silver-medal.png", alt="Medal" width="32" height="32").mx-auto
+            button.dbtn Results
+          div.card
+            img(src="images/greece.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Greece
+            button.dbtn Results
+          div.card
+            img(src="images/england.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh England
+            button.dbtn Results
+          div.card
+            img(src="images/norway.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Norway
+            button.dbtn Results
+          div.card
+            img(src="images/sweden.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Sweden
+            button.dbtn Results
+          div.card
+            img(src="images/finland.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Finland
+            button.dbtn Results
+          div.card
+            img(src="images/switzerland.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Switzerland
+            button.dbtn Results
+          div.card
+            img(src="images/france.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh France
+            button.dbtn Results
+          div.card
+            img(src="images/denmark.png", alt="Country" width="64" height="64").mx-auto
+            p.font-Kumbh Denmark
+            button.dbtn Results
 
-      div#container.p-16
-        div.grid.grid-cols-3.gap-16.text-center
-          p #{art}
-          p 525
-          p 356
+    div#container.p-16
+      div.grid.grid-cols-3.gap-16.text-center
+        p #{art}
+        p 525
+        p 356

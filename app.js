@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res) => {
     res.render('index' , {
-        art: 'gebt'
+        art: req.query
     })
     console.log("(ROUTE-USE) ".blue.bold + "Home".dim.bold)
 })
