@@ -10,7 +10,7 @@ html(lang='en')
     //- Navbar
     nav.nav
         //- Header
-        img(src="images/award.png" width="64" height="64").p-4
+        img(src="images/award.png" width="64" height="64").navitem
         a(href="http://localhost:3000").navitem Home
         a(href="http://localhost:3000/api/leaderboards/ireland").navitem Irish Contestants
         a(href="http://localhost:3000/api/leaderboards/ireland/full").navitem Irish Contestants Results
@@ -18,7 +18,7 @@ html(lang='en')
         a(href="http://localhost:3000/api/leaderboards/all/full").navitem All Contestants Results
         a(href="http://localhost:3000/api/leaderboards/highscore").navitem Highest Score
 
-    img(src="images/pin.png", alt="Country" width="128" height="128").mx-auto.drop-shadow-xl.animate-pulse.pt-8.pb-4
+    img(src="images/pin.png", alt="Country" width="128" height="128").mx-auto.drop-shadow-xl.animate-pulse.pt-8
     div#container.p-16
         div.roundbox
           p Results From 12 Countries Available
@@ -27,7 +27,6 @@ html(lang='en')
           div.card
             img(src="images/ireland.png", alt="Country" width="64" height="64").mx-auto
             p.font-Kumbh.inline Ireland
-            img(src="images/gold-medal.png", alt="Medal" width="32" height="32").mx-auto
             button.dbtn.inline Results
           div.card
             img(src="images/germany.png", alt="Country" width="64" height="64").mx-auto
@@ -36,12 +35,10 @@ html(lang='en')
           div.card
             img(src="images/spain.png", alt="Country" width="64" height="64").mx-auto
             p.font-Kumbh Spain
-            img(src="images/bronze-medal.png", alt="Medal" width="32" height="32").mx-auto
             button.dbtn Results
           div.card
             img(src="images/turkey.png", alt="Country" width="64" height="64").mx-auto
             p.font-Kumbh Turkey
-            img(src="images/silver-medal.png", alt="Medal" width="32" height="32").mx-auto
             button.dbtn Results
           div.card
             img(src="images/greece.png", alt="Country" width="64" height="64").mx-auto
@@ -75,9 +72,3 @@ html(lang='en')
             img(src="images/denmark.png", alt="Country" width="64" height="64").mx-auto
             p.font-Kumbh Denmark
             button.dbtn Results
-
-    div#container.p-16
-      div.grid.grid-cols-3.gap-16.text-center
-        p #{art}
-        p 525
-        p 356

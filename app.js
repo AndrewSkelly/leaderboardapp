@@ -20,9 +20,11 @@ app.set('view engine', 'pug')
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', (req, res) => {
+    req.params
     res.render('index' , {
-        art: req.query
+        art: req.params
     })
+    
     console.log("(ROUTE-USE) ".blue.bold + "Home".dim.bold)
 })
 
@@ -31,8 +33,8 @@ app.get('/error', (req, res) => {
     console.log("(ROUTE-USE) ".blue.bold + "ERROR".red.bold)
 })
 
-app.get('/err', (req, res) => {
-})
+// app.get('/err', (req, res) => {
+// })
 
 app.use(leaderboards);
 

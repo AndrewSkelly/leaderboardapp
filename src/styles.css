@@ -13,16 +13,16 @@
     @apply rounded-bld
 }
 .roundbox {
-    @apply font-Kumbh text-center p-4 mb-8 mt-4 text-4xl bg-violet-500 text-white border-violet-400 border-4 roundb drop-shadow-xl
+    @apply font-Kumbh text-center p-4 mb-8 text-4xl bg-violet-500 text-white border-violet-400 border-4 roundb drop-shadow-xl
 }
 .dbtn {
-    @apply p-4 pt-2 pb-2 bg-violet-500 hover:bg-violet-600 rounded-br-bld rounded-bl-bld drop-shadow-xl font-bold text-white font-Kumbh text-base hover:border-violet-400 align-bottom border-t-4 border-violet-300
+    @apply p-4 pt-2 pb-2 bg-zinc-900 hover:bg-violet-600 rounded-br-bld rounded-bl-bld drop-shadow-xl font-bold text-white font-Kumbh text-base hover:border-violet-400 align-bottom border-t-4 border-violet-600
 }
 .nav {
-    @apply bg-zinc-900 w-full flex justify-center text-center border-b-4 border-violet-600
+    @apply flex p-4 justify-center items-center bg-zinc-900 w-full text-center border-b-4 border-violet-600
 }
 .navitem {
-    @apply text-white text-lg p-4 hover:text-zinc-300 font-Kumbh transition ease-in-out delay-150 hover:scale-110
+    @apply text-white sm:text-lg text-sm p-4 hover:text-zinc-300 font-Kumbh transition ease-in-out delay-150 hover:scale-110
 }
 /* 4 wide grid shrinks to 2 wide for mobile */
 .cardgrid {
