@@ -70,4 +70,16 @@ ALTER TABLE public.leaderboards
 
 
 
-When Starting the server and clicking between routes the console will display these changes!
+## When Starting the server and clicking between routes the console will display these changes!
+![image](https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/d452e4d2-1c24-4c2d-9103-04c43384795f)
+
+## Route: http://localhost:3000/api/leaderboards/all
+![image](https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/bd204320-f954-4c6b-be13-87ea9b250d69)
+
+## Route: http://localhost:3000/api/leaderboards/ireland
+![image](https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/d7003eb9-585d-43fb-bd0c-4314bf3ce9da)
+
+## Locsl Demo
+https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/fd8b380b-45b3-4c21-ac3b-ba1326cd3515
+
+
