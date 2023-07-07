@@ -62,5 +62,12 @@ TABLESPACE pg_default;
 ALTER TABLE public.leaderboards
     OWNER to postgres;
 ```
+## Customers Mock Data
+![image](https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/54e055e9-efcd-4303-a63e-27cf16956c02)
+
+## Leaderboards Mock Data
+![image](https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/9ff470d3-853f-4f06-bd38-188603c66405)
+
+
 
 When Starting the server and clicking between routes the console will display these changes!
