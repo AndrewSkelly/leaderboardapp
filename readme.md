@@ -79,7 +79,8 @@ ALTER TABLE public.leaderboards
 ## Route: http://localhost:3000/api/leaderboards/ireland
 ![image](https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/d7003eb9-585d-43fb-bd0c-4314bf3ce9da)
 
-## Locsl Demo
-https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/fd8b380b-45b3-4c21-ac3b-ba1326cd3515
+## Local Demo
+https://github.com/AndrewSkelly/leaderboardapp/assets/61122579/921e8148-02b2-4437-aed0-7f3c1aee2c4e
+
 
 
